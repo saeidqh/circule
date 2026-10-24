@@ -1,0 +1,100 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 5, 2015, 10:39:46 AM
+    Author     : Shokri Nima
+*/
+.axis line {
+  fill: none;
+  stroke: #ddd;
+  shape-rendering: crispEdges;
+  vector-effect: non-scaling-stroke;
+}
+.node{
+    fill:#fff;
+}
+.active-node{
+    //fill: #ccff00 !important;
+}
+.current-node{
+    //fill: rgba(255, 154, 3, 1) !important;   //#ffdc00 !important;
+}
+/*
+ *    balloon box
+ */
+.balloon-box{
+    min-width:450px;
+    background:#fff;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border:solid 1px rgb(180, 180, 180);
+    
+    left:0;
+
+}
+.balloon-box .balloon-title{
+    border-bottom: solid 1px #dedede;
+    text-align:left;
+    background: #F1F1F1;
+    height:20px;
+    padding:1px 5px ;
+    -webkit-border-top-left-radius: 4px;
+                    -moz-border-radius-topleft: 4px;
+                    border-top-left-radius: 4px;
+                    border-top-right-radius: 4px;
+                    -webkit-border-top-right-radius: 4px;
+                    -moz-border-radius-topright: 4px;
+
+}
+.balloon-box table th{
+    background: gray !important ;
+    color:#FFE141 !important ;
+}
+.balloon-box .balloon-title .tooltip-triangle{
+    width:6px; 
+    height:14px;
+    background: url(../img/tooltip-triangle.png) no-repeat right ;
+    float:left;
+    margin-left:-10px;
+    margin-top:25px;
+}
+
+.balloon-box .balloon-title a{ 
+    float:right;
+    text-decoration: none;
+    padding:0 4px;
+    font-family: cursive;
+    background: #e9eaee;
+    color:gray;
+    border-left: solid 1px #dedede;
+    border-top-right-radius: 4px;
+                    -webkit-border-top-right-radius: 4px;
+                    -moz-border-radius-topright: 4px;
+}
+.balloon-box .balloon-title a:hover{
+    color:#e9eaee;
+    background: gray;
+}
+.balloon-box .balloon-content{
+    padding:8px;
+}
+.balloon-box .balloon-content h4{
+    line-height: 100%;
+    margin:0;
+}
+.balloon-box .balloon-content p{
+    margin:0;
+}
+.popover{max-width: 600px !important;}
+.tr-child-content{
+    background: rgb(255, 250, 239);/*rgb(255, 246, 228);*/
+    padding: 0;
+    border: solid 1px #33C6CC;
+    border-left: solid 10px #33C6CC;
+    margin:-3px;
+}
